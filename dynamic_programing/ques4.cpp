@@ -4,6 +4,15 @@
 #include <cstring>
 
 
+/*
+In India the currency is made up of Rupees (R), and Paise (P), and there are eight coins in general circulation:
+5P, 10P, 25P, 50P, 1R (100P), 2R (200p), 5R (500P), and 10R (1000P)
+
+One way to make 2R is as follows: 1×1R+1×50P +2×25P
+
+How many different ways can you make 5R, given you have infinite supply of coins?
+*/
+
 int makeCurrency(int s[], int m, int n)
 {
     
