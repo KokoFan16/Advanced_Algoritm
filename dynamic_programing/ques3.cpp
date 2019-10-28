@@ -8,6 +8,16 @@
 #include <iterator>
 
 
+/*
+You are at the top of a triangle mountain made with numbers. While moving down, you can only move to 
+adjacent numbers in the row below.
+There are many ways to reach the bottom from the top. Pick the path that maximizes the total.
+
+For example, for the number mountain below, the maximum total you can attain is 23.
+
+What is the maximum total you can achieve for the attached dataset [triangles.txt] ?
+*/
+
 int findMaxPath(std::vector<std::vector<int>> &triangle)
 {
     int n = triangle.size();
