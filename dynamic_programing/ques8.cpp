@@ -2,9 +2,17 @@
 #include <algorithm>
 #include <vector>
 
+/*
+A binomial coefficient C(n, k) gives the number of ways, disregarding order, 
+that k objects can be chosen from among n objects. 
 
-// c(n, k) = c(n - 1, k -1) + c(n-1, k)
-// c(n, 0) = c(n, n) = 1
+What is C(40, 5) ?
+
+c(n, k) = c(n - 1, k -1) + c(n-1, k)
+c(n, 0) = c(n, n) = 1
+
+*/
+
 int binomialCoefficient(int n, int k)
 {
     std::vector<int> coef(k+1, 0);
