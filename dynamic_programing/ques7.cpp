@@ -2,8 +2,13 @@
 #include <algorithm>
 #include <vector>
 
+/*
+Catalan numbers, c0 = 1; c1 = c0c0 = 1; c2 = c0c1 + c1c0 = 2. 
 
-// c0 = 1; c1 = c0c0 = 1; c2 = c0c1 + c1c0 = 2
+What is Catalan number 20.
+*/
+
+// 
 
 long long int catalan(int n)
 {
@@ -25,7 +30,6 @@ long long int catalan(int n)
 int main()
 {
     int n = 20;
-//    catalan(n);
     
     std::cout << catalan(n) << std::endl;
 }
