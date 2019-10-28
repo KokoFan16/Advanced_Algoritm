@@ -8,6 +8,13 @@
 #include <iterator>
 
 
+/*
+In a matrix, the minimal path sum from the top left to the bottom right, by only moving to the right and down.
+
+For the attached 80 × 80 matrix [matrix.txt], find the minimal path sum.
+*/
+
+
 int findMinPath(std::vector<std::vector<int>> &matrix)
 {
     int n = matrix.size();
